@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -34,4 +35,15 @@ body {
   font-size: 40px;
   font-weight: 700;
   color: #000000;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    width: 420px; /* Ширина для десктопов */
+    height: 420px; /* Высота для десктопов */
+  }
+  .cell {
+    width: 100px; /* Ширина ячейки для десктопов */
+    height: 100px; /* Высота ячейки для десктопов */
+  }
 }/*# sourceMappingURL=style.css.map */
